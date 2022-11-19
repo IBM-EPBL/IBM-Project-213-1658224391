@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Quality Prediction</title>
+</head>
+<body>
+    <h1>Water Quality Prediction</h1>
+    <h2>Using Random Forest Classifier</h2>
+
+    <form method="POST" action="/predict">
+        <p>ph</p>
+        <input name="ph" required>
+        <p>Hardness</p>
+        <input name="Hardness" required>
+        <p>Solids</p>
+        <input name="Solids" required>
+        <p>Chloramines</p>
+        <input name="Chloramines" required>
+        <p>Sulfate</p>
+        <input name="Sulfate" required>
+        <p>Conductivity</p>
+        <input name="Conductivity" required>
+        <p>Organic_carbon</p>
+        <input name="Organic_carbon" required>
+        <p>Trihalomethanes</p>
+        <input name="Trihalomethanes" required>
+        <p>Turbidity</p>
+        <input name="Turbidity" required>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
